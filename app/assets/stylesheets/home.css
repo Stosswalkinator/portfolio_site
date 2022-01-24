@@ -1,0 +1,23 @@
+div.brand-name {
+  padding: 15px;
+  margin: 0px ato 0px auto;
+  text-align: left;
+}
+
+ul {
+  width: auto;
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  border-bottom: 1px solid #000;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+  margin-right:10px;
+}
+
+a:hover, a.on {
+  color:#000000;
+  background-color: #ffffff;
+}
