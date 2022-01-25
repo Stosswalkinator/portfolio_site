@@ -5,22 +5,25 @@
   <title>Luke Stoss Photos</title>
 
 <!-- Header Start -->
-<header>
-  <div class="container">
-    <div class="row">
-      <div id="brand-name">
-        <a href="/"><h1>Luke Stoss Photos</h1></a>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div id="brand-name">
+          <a href="/"><h1>Luke Stoss Photos</h1></a>
+        </div>
+        <div id="header_image">
+          <%= image_tag "/assets/header.jpeg" %>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="about">About</a></li>
+            <li><a href="work">Work</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="nav">
-        <ul>
-          <li><a href="about">About</a></li>
-          <li><a href="work">Work</a></li>
-          <li><a href="contact">Contact</a></li>
-        </ul>
-      </nav>
     </div>
-  </div>
-</header>
+  </header>
 
 </head>
 <!-- Header End -->
@@ -30,16 +33,20 @@
 <body>
   <div id="body">
     <div id="portrait">
-      <img src="app/assets/images/homepage_portrait.png">
+      <%= image_tag "/assets/homepage_portrait.png" %>
     </div>
     <div id="text-box">
       <h1>Your life, your loved ones, your memories forever.</h1>
       <p>I’m Luke Stoss, and I am a portrait photographer. I’ve got all you need for professional photography.
         Click below for examples of my work and get in contact for your session!</p>
+        <br>
+        <br>
+        <div id="button">
+          <button><a href="/contact">Contact Me</a></button>
+        </div>
     </div>
     <br>
   </div>
-  <button><a href="/contact">Contact Me</a></button>
 </body>
 <!-- Body End -->
 </html>

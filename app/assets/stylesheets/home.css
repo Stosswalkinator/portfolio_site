@@ -8,6 +8,9 @@ body {
   text-align: left;
 }
 
+nav.nav {
+}
+
 ul {
   width: auto;
   padding: 15px;
@@ -19,6 +22,7 @@ ul {
 li {
   display: inline-block;
   margin-right:10px;
+  padding-bottom: 10px;
 }
 
 a:hover, a.on {
@@ -26,25 +30,22 @@ a:hover, a.on {
   background-color: #ffffff;
 }
 
-#text-box {
-  width: 50%;
-  position: static;
-}
-
 #body {
-    width: 800px;
-    margin: 0 auto;
+    width: 1200px;
+    padding-top: 50px;
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 #portrait {
-    width: 300px;
     height: 500px;
-    float: left;
 }
 
 #text-box {
-    width: 300px;
-    background: #ffffff;
     height: 500px;
-    margin-left: 200px;
-    float: right;
+}
+
+#button {
+  align-self: center;
 }
