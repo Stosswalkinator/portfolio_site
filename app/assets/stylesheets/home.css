@@ -48,17 +48,45 @@ a:hover, a.on {
 }
 
 #body {
-    width: 1200px;
-    padding-top: 50px;
-    padding: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+  width: 1200px;
+  padding-top: 50px;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
 }
 #portrait {
-    height: 500px;
+  height: 500px;
 }
 
 #text-box {
-    height: 500px;
+  height: 500px;
+}
+
+a.button{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.2em solid #000000;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#000000;
+  text-align:center;
+  transition: all 0.2s;
+  center: 0;
+}
+
+a.button:hover {
+ color:#000000;
+ background-color:#FFFFFF;
+}
+
+@media all and (max-width:30em){
+ a.button {
+  display:block;
+  margin:0.4em auto;
+ }
 }
