@@ -3,9 +3,11 @@ body {
 }
 
 #brand-name {
-  padding: 15px;
-  margin: 0px ato 0px auto;
+  padding: 10px;
+  margin: 0px auto 0px;
   text-align: left;
+  bottom: 0;
+  position: absolute;
   width: 300px;
 }
 
