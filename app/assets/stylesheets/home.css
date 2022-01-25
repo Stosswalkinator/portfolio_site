@@ -2,6 +2,10 @@ body {
   font-family: sans-serif;
 }
 
+p, h1 {
+  text-align: left;
+}
+
 #brand-name {
   padding: 10px;
   margin: 0px auto 0px;
