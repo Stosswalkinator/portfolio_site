@@ -79,6 +79,7 @@ a.button{
   text-align:center;
   transition: all 0.2s;
   center: 0;
+
 }
 
 a.button:hover {
