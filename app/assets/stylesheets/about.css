@@ -1,0 +1,11 @@
+#container {
+  width: 50%;
+  position: relative;
+  margin: 0 25%;
+  padding: 10px;
+}
+
+p, h1, h3 {
+  text-align: center;
+  center: 0;
+}
