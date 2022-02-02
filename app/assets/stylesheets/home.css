@@ -54,7 +54,7 @@ a:hover, a.on {
 }
 
 #body {
-  width: 1200px;
+  width: auto;
   padding-top: 50px;
   padding: 100px;
   display: grid;
